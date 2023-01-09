@@ -7,7 +7,12 @@ h1 {
   font-family: "Montserrat";
   font-weight: 900;
   font-size: 5rem;
-  line-height: 1.5;
+  line-height: 1.2;
+ 
+ 
+}
+
+.head-line {
   color:white;
 }
 
@@ -106,11 +111,15 @@ body{
   color: white;
 }
 
+
+/* prices section */
 #pricing {
   padding: 7% 15%;
   text-align: center;
  
 }
+
+
 
 .testimonial-image {
   width: 10%;
