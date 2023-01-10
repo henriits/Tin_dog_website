@@ -76,8 +76,8 @@ body{
 
 /* Title Image */
 .title-image {
-  width: 55%;
-  rotate: 25deg;
+  width: 65%;
+  transform: rotate(25deg);
   position: absolute;
   right:30%;
 
@@ -148,4 +148,15 @@ body{
 .press-logo {
   width:15%;
   margin: 20px 20px 50px;
+}
+
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
